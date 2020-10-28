@@ -1,0 +1,27 @@
+#purple-text-wrapper {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.purple-text-container {
+
+    background-color: #5544b0;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px; 
+    display: inline-block;
+    border: 3px solid white;
+    box-shadow: tomato;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.purple-text-container:hover {
+    background-color: blueviolet;
+}
+
+
+.purple-text-container + .purple-text-container {
+    margin-left: 25px;
+}
